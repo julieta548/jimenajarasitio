@@ -18,10 +18,10 @@ function Servicios() {
                     
                 </div>
                 <div className='servicios-lista'>
-                    <div className='btn item-servicio'>Creaciones a medida</div>
-                    <div className='btn item-servicio'>Confección de Ropa para Ocasiones Especiales</div>
-                    <div className='btn item-servicio'>Reparación de Prendas</div>
-                    <div className='btn item-servicio'>Confección de Ropa para Niños</div>
+                    <div className='btn item-servicio-1'>Creaciones a medida</div>
+                    <div className='btn item-servicio-2'>Confección de Ropa para Ocasiones Especiales</div>
+                    <div className='btn item-servicio-3'>Reparación de Prendas</div>
+                    <div className='btn item-servicio-4'>Confección de Ropa para Niños</div>
                     {/* <Carousel /> */}
                 </div>
                 <button className='btn boton-contacto'>Contactame</button>
