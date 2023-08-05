@@ -17,11 +17,11 @@ function Servicios() {
                     </p>
                     
                 </div>
-                <div className='botones'>
-                    <button className='btn boton-servicio'>Creaciones a medida</button>
-                    <button className='btn boton-servicio'>Confección de Ropa para Ocasiones Especiales</button>
-                    <button className='btn boton-servicio'>Reparación de Prendas</button>
-                    <button className='btn boton-servicio'>Confección de Ropa para Niños</button>
+                <div className='servicios-lista'>
+                    <div className='btn item-servicio'>Creaciones a medida</div>
+                    <div className='btn item-servicio'>Confección de Ropa para Ocasiones Especiales</div>
+                    <div className='btn item-servicio'>Reparación de Prendas</div>
+                    <div className='btn item-servicio'>Confección de Ropa para Niños</div>
                     {/* <Carousel /> */}
                 </div>
                 <button className='btn boton-contacto'>Contactame</button>
