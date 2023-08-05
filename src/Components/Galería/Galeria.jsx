@@ -4,7 +4,7 @@ import './Galeria.css'
 
 function Galeria() {
     return (
-        <div>
+        <div id='trabajos'>
             <div className='galeria'>
                 <h1>Mis trabajos</h1>
                 <p className='parrafo-galeria'>Explorá una amplia gama de servicios personalizados

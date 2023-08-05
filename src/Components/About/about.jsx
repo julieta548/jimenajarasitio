@@ -3,7 +3,7 @@ import './About.css';
 
 function About() {
     return (
-        <div className='about'>
+        <div id='about' className='about'>
             <svg className='svg-about' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#f2cbbc" fill-opacity="1" d="M0,320L48,272C96,224,192,128,288,85.3C384,43,480,53,576,101.3C672,149,768,235,864,256C960,277,1056,235,1152,208C1248,181,1344,171,1392,165.3L1440,160L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
             <div className='elementos-about'>
                 <div className='presentacion'>
