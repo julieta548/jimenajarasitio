@@ -1,0 +1,16 @@
+.galeria {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.parrafo-galeria {
+    color: var(--color-subtitle);
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 50rem;
+    text-align: start;
+    margin-top: 2rem;
+}

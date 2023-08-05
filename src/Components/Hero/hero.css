@@ -1,0 +1,30 @@
+.hero {
+    background-image: linear-gradient(to top, #f2cbbc, transparent 50%), url('../../../public/img/fondo.png');
+    background-color: var(--col-IF-Grey-d);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 44rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: end;
+}
+
+.encabezado {
+    margin-right: 14rem;
+    margin-top: -9rem;
+}
+
+.titulo-hero {
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 70px;
+}
+
+.subtitulo-hero {
+    color: var(--color-subtitle);
+    font-weight: 400;
+    font-size: 40px;
+}

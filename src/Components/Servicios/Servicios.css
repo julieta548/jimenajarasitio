@@ -1,0 +1,78 @@
+.servicios {
+    background-color: var(--color-background-g);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+
+.titulo-1 {
+    color: white;
+}
+
+.svg-servicios {
+    transform: rotate(180deg);
+    margin-top: -0.1rem;
+}
+
+.parrafo-servicios {
+    color: var(--color-subtitle);
+    font-weight: 700;
+    font-size: 1.1rem;
+    width: 50rem;
+    text-align: start;
+    margin-top: 2rem;
+}
+
+.boton-contacto {
+    border-radius: 1.5rem;
+    background-color: #ebae95;
+    margin-top: 5rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 0.5rem 0.8rem;
+    transition: background-color 0.5s;
+
+}
+
+.boton-contacto:hover {
+    background-color: var(--color-background-p);
+    color: #FFF;
+}
+
+.botones {
+    height: 100%;
+    margin: 2rem 0;
+    background-color: var(--color-background-g);
+}
+
+.boton-servicio {
+    border-radius: 1.5rem;
+    background-color: #ebae95;
+    margin: 0.8rem 0.8rem;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 700;
+    width: 17rem;
+    height: 15rem;
+    padding: 0.5rem 0.8rem;
+    transition: background-color 0.5s;
+
+}
+
+.boton-servicio:hover {
+    background-color: var(--color-background-p);
+    color: #FFF;
+}
+
+@media (max-width: 562px) {
+    .botones {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}

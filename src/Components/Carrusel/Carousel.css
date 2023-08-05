@@ -1,0 +1,151 @@
+.slick-slide img {
+    display: inherit;
+}
+
+.dots {
+    position: absolute;
+    bottom: -25px;
+
+    display: block;
+
+    width: 100%;
+    padding: 0;
+    margin: 0;
+
+    list-style: none;
+
+    text-align: center;
+}
+
+.dots li {
+    position: relative;
+
+    display: inline-block;
+
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    padding: 0;
+
+    cursor: pointer;
+}
+
+.dots li button {
+    font-size: 0;
+    line-height: 0;
+
+    display: block;
+
+    width: 20px;
+    height: 20px;
+    padding: 5px;
+
+    cursor: pointer;
+
+    color: transparent;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.dots li button:hover,
+.dots li button:focus {
+    outline: none;
+}
+
+.dots li button:hover:before,
+.dots li button:focus:before {
+    opacity: 1;
+}
+
+.dots li button:before {
+    font-family: 'slick';
+    font-size: 6px;
+    line-height: 20px;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    width: 20px;
+    height: 20px;
+
+    content: '•';
+    text-align: center;
+
+    opacity: .25;
+    color: var(--col-IF-Blue-m);
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.dots li.slick-active button:before {
+    opacity: .75;
+    color: var(--col-IF-Blue-l);
+}
+
+
+
+.img-servicios {
+    max-width: 20rem;
+    height: auto;
+    border-radius: 1.5rem;
+    display: block;
+    max-width: 100%;
+    transition: opacity 0.3s;
+    margin: 0 4px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: opacity 0.3s;
+    pointer-events: none;
+    /* Permite que los eventos pasen a la imagen subyacente */
+}
+
+.image-container:hover .img-servicios {
+    opacity: 0.4;
+    border-radius: 1.5rem;
+    margin: 0 4px;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+    border-radius: 1.5rem;
+    margin: 0 4px;
+
+}
+
+.image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    opacity: 1;
+    /* Asegura que el texto sea visible al hacer hover */
+    pointer-events: none;
+    /* Permite que los eventos pasen al elemento subyacente */
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .img-servicios {
+        margin-left: 0rem
+    }
+}
