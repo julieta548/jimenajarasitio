@@ -1,4 +1,5 @@
 import React from 'react'
+import './Navbar.css'
 
 function Navbar() {
 
@@ -7,7 +8,8 @@ function Navbar() {
         <>
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <img className="navbar-brand marca" src='img/logo-jime.png' href="#"></img>
+                    <h3 className='titulo-navbar'>Jimena Jara</h3>
+                    {/* <img className="navbar-brand marca" src='img/logo-jime.png' href="#"></img> */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

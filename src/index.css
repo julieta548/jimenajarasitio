@@ -14,7 +14,15 @@ h1 {
   font-size: 4rem;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.5s;
+}
 
+a:hover {
+  color: var(--color-title);
+}
 
 :root {
   --color-background: #f2e1d0;

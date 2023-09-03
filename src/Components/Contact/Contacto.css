@@ -1,0 +1,51 @@
+.contacto {
+    background-color: #ebae95;
+    position: absolute;
+    width: 100%;
+    padding: 2rem;
+}
+
+.datos {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+}
+
+.datos-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.item-datos {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.titulo-contacto {
+    color: var(--color-title);
+    font-weight: 700;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 2rem;
+    margin-left: 2.5rem;
+}
+
+.icono {
+    margin-right: 1.5rem;
+    transition: color 0.5s;
+    color: #fff;
+}
+
+.icono:hover {
+    color: var(--color-title);
+}
