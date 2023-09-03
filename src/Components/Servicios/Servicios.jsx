@@ -15,13 +15,30 @@ function Servicios() {
                         y modificaciones elegantes hasta creaciones a medida, en mi taller de modista,
                         tu visión cobra vida en cada puntada.
                     </p>
-                    
+
                 </div>
                 <div className='servicios-lista'>
-                    <div className='btn item-servicio-1'>Creaciones a medida</div>
-                    <div className='btn item-servicio-2'>Confección de Ropa para Ocasiones Especiales</div>
-                    <div className='btn item-servicio-3'>Reparación de Prendas</div>
-                    <div className='btn item-servicio-4'>Confección de Ropa para Niños</div>
+                    <div className='btn item-servicio'>
+                        <img className='item-servicio__imagen-1' src="img/costura1.png" alt="" />
+                        <div className="superposicion"></div>
+                        <h3 className='texto-1'>Creaciones a medida</h3>
+                    </div>
+                    <div className='btn item-servicio'>
+                        <img className='item-servicio__imagen-2' src="img/costura2.png" alt="" />
+                        <div className="superposicion"></div>
+                        <h3 className='texto-2'>Confección de Ropa para Ocasiones Especiales</h3>
+                    </div>
+                    <div className='btn item-servicio'>
+                        <img className='item-servicio__imagen-3' src="img/costura3.png" alt="" />
+                        <div className="superposicion"></div>
+                        <h3 className='texto-3'>Reparación de Prendas</h3>
+                    </div>
+                    <div className='btn item-servicio'>
+                        <img className='item-servicio__imagen-4' src="img/costura4.png" alt="" />
+                        <div className="superposicion"></div>
+                        <h3 className='texto-4'>Confección de Ropa para Niños</h3>
+                    </div>
+                    
                     {/* <Carousel /> */}
                 </div>
                 <button className='btn boton-contacto'>Contactame</button>
